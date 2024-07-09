@@ -14,8 +14,7 @@ jobs:
           fetch-depth: 0
 
       - name: Install dependencies
-        run: |
-          npm install
+        run: npm install
               
       - name: test
         run: npm test
